@@ -9,7 +9,7 @@ public class MultipleTryCatch {
 
 	public static void main(String[] args) {
 		
-		// pushing the code to git
+	/*	// pushing the code to git
 		try {
 			
 			int i = 0;
@@ -34,6 +34,8 @@ public class MultipleTryCatch {
 		}
 
 
+	*/
+		
 	}
 
 }
