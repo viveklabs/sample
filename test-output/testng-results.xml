@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16692" started-at="2020-05-13T13:08:04Z" finished-at="2020-05-13T13:08:21Z">
+  <suite name="Cookies Manipulation Test" duration-ms="21283" started-at="2020-05-13T17:39:51Z" finished-at="2020-05-13T17:40:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16692" started-at="2020-05-13T13:08:04Z" finished-at="2020-05-13T13:08:21Z">
+    <test name="Bypass auth using cookies" duration-ms="21283" started-at="2020-05-13T17:39:51Z" finished-at="2020-05-13T17:40:13Z">
       <class name="cookieHandling.TestCases">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:cookieHandling.TestCases@3b938003]" name="setup1" is-config="true" duration-ms="7189" started-at="2020-05-13T13:08:04Z" finished-at="2020-05-13T13:08:11Z">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:cookieHandling.TestCases@6a4f787b]" name="setup1" is-config="true" duration-ms="15286" started-at="2020-05-13T17:39:51Z" finished-at="2020-05-13T17:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="verifyNameWithCookie()[pri:1, instance:cookieHandling.TestCases@3b938003]" name="verifyNameWithCookie" duration-ms="9421" started-at="2020-05-13T13:08:11Z" finished-at="2020-05-13T13:08:21Z">
+        <test-method status="PASS" signature="verifyNameWithCookie()[pri:1, instance:cookieHandling.TestCases@6a4f787b]" name="verifyNameWithCookie" duration-ms="5300" started-at="2020-05-13T17:40:07Z" finished-at="2020-05-13T17:40:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNameWithCookie -->
-        <test-method status="PASS" signature="verifyName()[pri:2, instance:cookieHandling.TestCases@3b938003]" name="verifyName" duration-ms="39" started-at="2020-05-13T13:08:21Z" finished-at="2020-05-13T13:08:21Z">
+        <test-method status="PASS" signature="verifyName()[pri:2, instance:cookieHandling.TestCases@6a4f787b]" name="verifyName" duration-ms="574" started-at="2020-05-13T17:40:12Z" finished-at="2020-05-13T17:40:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyName -->
       </class> <!-- cookieHandling.TestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Bypass auth using cookies -->
+  </suite> <!-- Cookies Manipulation Test -->
 </testng-results>
