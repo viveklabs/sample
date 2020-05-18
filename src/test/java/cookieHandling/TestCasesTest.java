@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
-public class TestCases extends TestBase{
+public class TestCasesTest extends TestBase{
 	
 	TestBase base = new TestBase();
 	HandleCookies handleCookies = new HandleCookies();

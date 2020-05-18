@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -49,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Cookies_Manipulation_Test">
-                    <span>C:\Users\91821\OneDrive\Desktop\My Workspace\sample\testng.xml</span>
+                    <span>C:\Users\91821\OneDrive\Desktop\My Workspace\sample\src\test\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,12 +104,12 @@
                     <div class="method-list-content passed suite-Cookies_Manipulation_Test">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Cookies_Manipulation_Test" title="cookieHandling.TestCases" hash-for-method="verifyName">verifyName</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Cookies_Manipulation_Test" title="cookieHandling.TestCasesTest" hash-for-method="verifyName">verifyName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Cookies_Manipulation_Test" title="cookieHandling.TestCases" hash-for-method="verifyNameWithCookie">verifyNameWithCookie</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Cookies_Manipulation_Test" title="cookieHandling.TestCasesTest" hash-for-method="verifyNameWithCookie">verifyNameWithCookie</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Cookies_Manipulation_Test -->
@@ -125,7 +127,7 @@
           <div class="suite-Cookies_Manipulation_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">cookieHandling.TestCases</span>
+              <span class="class-name">cookieHandling.TestCasesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -147,19 +149,19 @@
         </div> <!-- panel Cookies_Manipulation_Test -->
         <div panel-name="test-xml-Cookies_Manipulation_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\91821\OneDrive\Desktop\My Workspace\sample\testng.xml</span>
+            <span class="header-content">C:\Users\91821\OneDrive\Desktop\My Workspace\sample\src\test\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Cookies Manipulation Test&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Bypass auth using cookies&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;cookieHandling.TestCases&quot;/&gt;
+      &lt;class name=&quot;cookieHandling.TestCasesTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Bypass auth using cookies --&gt;
 &lt;/suite&gt; &lt;!-- Cookies Manipulation Test --&gt;
@@ -202,17 +204,17 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyNameWithCookie')
-data.setCell(0, 2, 'cookieHandling.TestCases')
-data.setCell(0, 3, 5300);
+data.setCell(0, 2, 'cookieHandling.TestCasesTest')
+data.setCell(0, 3, 6043);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyName')
-data.setCell(1, 2, 'cookieHandling.TestCases')
-data.setCell(1, 3, 574);
+data.setCell(1, 2, 'cookieHandling.TestCasesTest')
+data.setCell(1, 3, 76);
 window.suiteTableData['Cookies_Manipulation_Test']= { tableData: data, tableDiv: 'times-div-Cookies_Manipulation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Cookies_Manipulation_Test">
               </div> <!-- times-div-Cookies_Manipulation_Test -->
             </div> <!-- times-div -->
@@ -231,7 +233,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">cookieHandling.TestCases</span>
+              <span class="ignored-class-name">cookieHandling.TestCasesTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">login</span>
                 <br/>
@@ -245,22 +247,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">cookieHandling.TestCases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">cookieHandling.TestCasesTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup1</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyNameWithCookie</span>
-                <span class="method-start">15400 ms</span>
+                <span class="method-start">11174 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyName</span>
-                <span class="method-start">20705 ms</span>
+                <span class="method-start">17257 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
