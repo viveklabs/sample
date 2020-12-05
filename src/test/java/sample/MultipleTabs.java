@@ -50,7 +50,8 @@ public class MultipleTabs {
 		
 		 for (int i = 0; i<windowMap.size(); i++)  // to close the window in descending order
 		 {
-		 driver.switchTo().window(windowMap.get(i)); driver.close();
+		 driver.switchTo().window(windowMap.get(i)); 
+		 driver.close();
 		 }
 	}
 }
