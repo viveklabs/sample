@@ -31,9 +31,7 @@ public class ExcelColumnMap {
 			System.out.println(row.getCell(i));
 			Cell cell = row.getCell(i);
 			keyList.add(cell.getStringCellValue());		
-		}
-		
-		
+		}		
 
 		int rowCount = AddCatalogSheet.getLastRowNum() - AddCatalogSheet.getFirstRowNum();
 		for (int k=0;k<keyList.size();k++) {
